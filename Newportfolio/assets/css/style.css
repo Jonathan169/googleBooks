@@ -1,0 +1,63 @@
+body{
+    background-repeat: repeat;
+}
+.container-fluid{
+    height:100vh;
+    width:100vw;
+    background-position: fixed;
+    background-repeat:no-repeat;
+    background-size:cover
+}
+nav{
+    background-color:hsl(212, 11%, 23%,.8);
+    border-radius:4px;
+}
+#about{
+    background-color:rgb(255, 251, 251);
+    border-radius: 5px;
+    height:auto;
+    width:70%;
+    left:10%;
+}
+.list-group-item{
+    background-color:hsl(212, 11%, 23%,.5);
+    color:white;
+    margin:.5vh;    
+
+}
+.list-group-item:hover{
+    background-color:rgba(120, 122, 124, 0.5);
+    color:white;
+}
+p,a{
+    font-size:1.5vw;
+}
+.hide{
+    display:none !important;
+}
+#contact{
+    width:45%;
+    height:auto;
+    background-color:white;
+    padding:1%;
+    border-radius:5px;
+    position: absolute;
+    left:20%;
+}
+#submit{
+    width:auto;
+    font-size:1.3vw;
+    position: relative;
+    left:40%;
+}
+#portfolio{
+    width:75%;
+    height:75%;
+    left:10%;
+}
+.portp{
+    width:100%;
+}
+.nav-item{
+    cursor: pointer;
+}
