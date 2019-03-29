@@ -1,0 +1,88 @@
+body{
+  background-image:url("/images/background.gif");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width:100vw;
+  overflow: auto;
+}
+a{
+  text-decoration: none;
+}
+.nav{
+  width:100vw;
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+.navitem{
+  color:rgb(3, 189, 3);
+  font-weight: bold;
+  font-family: arial;
+  font-size: 2vw;
+  margin:1.5rem;
+}
+.navitem:hover{
+  color:whitesmoke;
+}
+.container{
+  width:100%;
+}
+.homediv{
+  background-color:rgba(211, 211, 211, 0.7);
+  width:65%;
+  border-radius: .75rem;
+  margin:3rem;
+  padding:.5rem;
+}
+.content{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.homepara{
+  font-size: 1.5rem;
+}
+hr{
+  border:1px solid black;
+  margin:0%;
+}
+.searchbody{
+  background-color:rgba(211, 211, 211, 0.7);
+  width:65%;
+  border-radius: .75rem;
+  margin:3rem;
+  padding:.5rem;
+}
+.searchnav{
+  justify-content: flex-end;
+  display: flex;
+}
+.searchbar{
+  border-radius:.3rem;
+  margin:.25rem;
+  height: 1.2rem;
+}
+.searchButton{
+  height:1.5rem;
+  border-radius: .25rem;
+  margin:.25rem;
+}
+.heads{
+  float: left;
+  margin:.5rem;
+}
+.searchResults{
+  display: flex;
+  justify-content: center;
+  flex-wrap: row wrap;
+}
+.savedNav{
+  justify-content: center;
+  display: flex;
+}
+.header{
+  font-size:1.5rem;
+  font-weight: bold;
+  margin:.25rem;
+}
